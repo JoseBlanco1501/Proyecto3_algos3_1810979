@@ -31,9 +31,9 @@ El objetivo es calcular, para cada celda:
 - La cantidad de **agua atrapada**, definida como:
   
 
-$
+$$
 \text{agua}(c) = \max(0,\ \text{nivelEscape}(c) - \text{altura}(c))
-$
+$$
 
 
 
@@ -70,9 +70,9 @@ La siguiente tabla resume la complejidad de cada operación implementada en el g
 - **E ≈ 4·n·m** aristas (cada celda tiene hasta 4 vecinos).  
 - **Complejidad total del algoritmo:**  
 
-$
+$$
   O(nm \log(nm))
-$
+$$
 
 ---
 ## Decisiones de Implementación
@@ -116,10 +116,9 @@ Pero en este problema:
 
 
 
-$
+$$
 \text{costo}(P) = \max_{v \in P} \text{altura}(v)
-$
-
+$$
 
 
 **Decisión:** almacenar la altura en el vértice y no en la arista.
