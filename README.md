@@ -139,9 +139,9 @@ El objetivo es calcular el **nivel mínimo de escape** para cada celda:
 
 
 
-$
+$$
 \text{nivelEscape}(c) = \min_{P} \left( \max_{v \in P} \text{altura}(v) \right)
-$
+$$
 
 
 
